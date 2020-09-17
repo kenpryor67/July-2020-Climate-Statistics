@@ -4,8 +4,30 @@ Station Location:  Lat: 39.4090   Lon: -77.2997,   Elev: 443ft
 
 Notes on datasets in this repository:
 
-1. The daily weather observation log "July2020.txt" is a transcription of my written log shown in file "july2020.pdf"
+1. The daily weather observation log "July2020.txt" is a transcription of my written log shown in file "july2020.pdf". Temperature is measured in the Fahrenheit scale, rainfall is measured in inches.
 
-2. "July_1970_2019.txt" is a 50-year long-term time series dataset "AN81m", for July 1970 - 2019, obtained from PRISM Climate Group (https://prism.oregonstate.edu/explorer/), and adapted from the file "PRISM_ppt_tmin_tmean_tmax_stable_4km_onemonth_197007 201907_39.4009_-77.3009.xlsx"
+2. "July_1970_2019.txt" is a 50-year long-term time series dataset titled "AN81m", for July 1970 - 2019, obtained from the PRISM Climate Group (https://prism.oregonstate.edu/explorer/), and adapted from the file "PRISM_ppt_tmin_tmean_tmax_stable_4km_onemonth_197007 201907_39.4009_-77.3009.xlsx".
 
+3. The document "PRISM_datasets.pdf" contains descriptive material of PRISM climate datasets.
+
+The notebook "July2020.ipynb" generates tables, descriptive statistics, and graphs of temperature and precipitation as compared to the long-term time series. Consists of four blocks that are executed in succession:
+
+1. Read and build daily weather observation dataset
+
+2. Read and build long-term climate dataset
+
+3. Calculate descriptive statistics
+
+4. Plot graphs comparing July 2020 statistics with long-term time series/means and save graphs as image files in .png format
+
+Important results to note from this study:
+
+1. July 2020 was the warmest and 2nd driest on record since 1970.
+
+2. 20 out of 30 days with a daily maximum temperature at or above 90 degrees F.
+
+Important Links:  
+
+CoCoRaHS - https://www.cocorahs.org/
+PRISM - https://prism.oregonstate.edu/
 
